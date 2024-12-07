@@ -53,10 +53,12 @@ def main()->None:
                      if len(oops_elem) >= 1:
                          setty.add(idx)
                          is_complete = False
+                         print(elems[i], oops_elem[0])
                          break
                 elif len(missing_item) >= 1:
                     setty.add(idx)
                     is_complete = False
+                    print(elems[i], missing_item[0])
                     break
                 else:
                     is_complete = True
